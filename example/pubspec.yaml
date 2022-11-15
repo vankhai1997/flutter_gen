@@ -158,6 +158,7 @@ flutter_gen:
       - assets/color/colors.xml
       - assets/color/colors2.xml
       - assets/color/colors2.xml # duplicated
+
   localization:
     enabled: true
     sheet_id: '1v2Y3e0Uvn0JTwHvsduNT70u7Fy9TG43DIcZYJxPu1ZA'
