@@ -107,7 +107,11 @@ dev_dependencies:
     sdk: flutter
   build_runner: ^2.1.11
   freezed: ^2.1.0+1
-  flutter_gen_runner: ^5.1.0+1
+  flutter_gen_runner:
+    git:
+      url: https://github.com/rinlv/flutter_gen.git
+      ref: easy_localization
+      path: packages/runner
 
   flutter_lints: ^2.0.1
 
@@ -154,6 +158,9 @@ flutter_gen:
       - assets/color/colors.xml
       - assets/color/colors2.xml
       - assets/color/colors2.xml # duplicated
+  localization:
+    enabled: true
+    sheet_id: '1v2Y3e0Uvn0JTwHvsduNT70u7Fy9TG43DIcZYJxPu1ZA'
 
 flutter:
   uses-material-design: true
