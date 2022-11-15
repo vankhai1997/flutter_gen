@@ -47,6 +47,22 @@ flutter_gen:
     # Optional
     outputs:
       class_name: ColorName
+      
+  localization:
+    enabled: true
+    sheet_id: ''
+    out_dir: 'assets/langs'
+    out_name: 'langs.csv'
+    preserved_keywords: [
+      'few',
+      'many',
+      'one',
+      'other',
+      'two',
+      'zero',
+      'male',
+      'female',
+    ]    
 
 flutter:
   # See: https://flutter.dev/docs/development/ui/assets-and-images#specifying-assets
