@@ -59,6 +59,7 @@ class FlutterGen {
     required this.fonts,
     required this.integrations,
     required this.colors,
+    required this.localization
   });
 
   @JsonKey(name: 'output', required: true)
@@ -78,6 +79,9 @@ class FlutterGen {
 
   @JsonKey(name: 'colors', required: true)
   final FlutterGenColors colors;
+
+  @JsonKey(name: 'localization', required: true)
+  final FlutterGenLocalization localization;
 
   factory FlutterGen.fromJson(Map json) => _$FlutterGenFromJson(json);
 }
@@ -220,4 +224,32 @@ class FlutterGenElementAssetsOutputs extends FlutterGenElementOutputs {
 
   factory FlutterGenElementAssetsOutputs.fromJson(Map json) =>
       _$FlutterGenElementAssetsOutputsFromJson(json);
+}
+
+@JsonSerializable()
+class FlutterGenLocalization {
+  FlutterGenLocalization(
+      {required this.enabled,
+        required this.sheetId,
+        required this.outDir,
+        required this.outName,
+        required this.preservedKeywords});
+
+  @JsonKey(name: 'enabled', required: true)
+  final bool enabled;
+
+  @JsonKey(name: 'sheet_id', required: true)
+  final String sheetId;
+
+  @JsonKey(name: 'out_dir', required: true)
+  final String outDir;
+
+  @JsonKey(name: 'out_name', required: true)
+  final String outName;
+
+  @JsonKey(name: 'preserved_keywords', required: true)
+  final List<String> preservedKeywords;
+
+  factory FlutterGenLocalization.fromJson(Map json) =>
+      _$FlutterGenLocalizationFromJson(json);
 }

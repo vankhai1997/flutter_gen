@@ -74,7 +74,8 @@ FlutterGen _$FlutterGenFromJson(Map json) => $checkedCreate(
             'assets',
             'fonts',
             'integrations',
-            'colors'
+            'colors',
+            'localization'
           ],
         );
         final val = FlutterGen(
@@ -88,6 +89,8 @@ FlutterGen _$FlutterGenFromJson(Map json) => $checkedCreate(
               'integrations', (v) => FlutterGenIntegrations.fromJson(v as Map)),
           colors: $checkedConvert(
               'colors', (v) => FlutterGenColors.fromJson(v as Map)),
+          localization: $checkedConvert(
+              'localization', (v) => FlutterGenLocalization.fromJson(v as Map)),
         );
         return val;
       },
@@ -225,5 +228,38 @@ FlutterGenElementAssetsOutputs _$FlutterGenElementAssetsOutputsFromJson(
       fieldKeyMap: const {
         'className': 'class_name',
         'packageParameterEnabled': 'package_parameter_enabled'
+      },
+    );
+
+FlutterGenLocalization _$FlutterGenLocalizationFromJson(Map json) =>
+    $checkedCreate(
+      'FlutterGenLocalization',
+      json,
+      ($checkedConvert) {
+        $checkKeys(
+          json,
+          requiredKeys: const [
+            'enabled',
+            'sheet_id',
+            'out_dir',
+            'out_name',
+            'preserved_keywords'
+          ],
+        );
+        final val = FlutterGenLocalization(
+          enabled: $checkedConvert('enabled', (v) => v as bool),
+          sheetId: $checkedConvert('sheet_id', (v) => v as String),
+          outDir: $checkedConvert('out_dir', (v) => v as String),
+          outName: $checkedConvert('out_name', (v) => v as String),
+          preservedKeywords: $checkedConvert('preserved_keywords',
+              (v) => (v as List<dynamic>).map((e) => e as String).toList()),
+        );
+        return val;
+      },
+      fieldKeyMap: const {
+        'sheetId': 'sheet_id',
+        'outDir': 'out_dir',
+        'outName': 'out_name',
+        'preservedKeywords': 'preserved_keywords'
       },
     );

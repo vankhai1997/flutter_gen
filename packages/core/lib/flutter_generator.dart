@@ -6,6 +6,7 @@ import 'package:path/path.dart';
 import 'generators/assets_generator.dart';
 import 'generators/colors_generator.dart';
 import 'generators/fonts_generator.dart';
+import 'generators/localization_generator.dart';
 import 'settings/config.dart';
 import 'utils/file.dart';
 
@@ -15,12 +16,14 @@ class FlutterGenerator {
     this.assetsName = 'assets.gen.dart',
     this.colorsName = 'colors.gen.dart',
     this.fontsName = 'fonts.gen.dart',
+    this.localizationName = 'localization.gen.dart',
   });
 
   final File pubspecFile;
   final String assetsName;
   final String colorsName;
   final String fontsName;
+  final String localizationName;
 
   Future<void> build({Config? config, FileWriter? writer}) async {
     config ??= loadPubspecConfigOrNull(pubspecFile);
@@ -75,6 +78,16 @@ class FlutterGenerator {
           normalize(join(pubspecFile.parent.path, output, fontsName));
       writer(generated, fontsPath);
       stdout.writeln('Generated: $fontsPath');
+    }
+
+    if (flutterGen.localization.enabled &&
+        flutterGen.localization.sheetId.isNotEmpty) {
+      final generated =
+          await generateLocalization(formatter, flutterGen.localization);
+      final localizationPath =
+          normalize(join(pubspecFile.parent.path, output, localizationName));
+      writer(generated, localizationPath);
+      stdout.writeln('Generated: $localizationPath');
     }
 
     stdout.writeln('FlutterGen finished.');
