@@ -5,14 +5,14 @@
 import FlutterMacOS
 import Foundation
 
-import connectivity_plus_macos
+import connectivity_plus
 import device_info_plus_macos
 import flutter_local_notifications
 import flutter_secure_storage_macos
 import geolocator_apple
 import in_app_review
 import package_info_plus_macos
-import path_provider_macos
+import path_provider_foundation
 import sentry_flutter
 import share_plus_macos
 import shared_preferences_macos
