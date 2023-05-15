@@ -14,7 +14,11 @@ executables:
   fluttergen: flutter_gen_command
 
 dependencies:
-  flutter_gen_core: 5.3.1
+  flutter_gen_core:
+    git:
+      url: https://github.com/rinlv/flutter_gen.git
+      ref: easy_localization
+      path: packages/core
   args: '>=2.0.0 <3.0.0'
 
 dev_dependencies:
