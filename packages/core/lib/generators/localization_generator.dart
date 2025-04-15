@@ -23,7 +23,6 @@ Future<String> generateLocalization(
       Uri.parse(
           'https://docs.google.com/spreadsheets/export?format=csv&id=${localization.sheetId}'),
       headers: headers);
-  print(response.body);
   final buffer = StringBuffer();
   buffer.writeln(header);
   buffer.writeln(ignore);

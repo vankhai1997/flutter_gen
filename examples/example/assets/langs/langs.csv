@@ -1,26 +1,1035 @@
-str,en_US,zh_TW,ar_DZ,de_DE,ru_RU,vi_VN
-title,Hello,你好,مرحبًا,Hallo,добры дзень,Xin chào
-clickMe,Click me,點我,أنا أشير,Ich zeige,Я паказваю,tôi chỉ
-profile.reset_password.label,Reset Password,重設密碼,إعادة تعيين كلمة المرور,Passwort zurücksetzen,скінуць пароль,đặt lại mật khẩu
-profile.reset_password.username,Username,用戶名,اسم االمستخدم,Nutzername,імя карыстальніка,tên tài khoản
-profile.reset_password.password,password,密碼,كلمه السر,Passwort,пароль,mật khẩu mở khóa
-clicked.zero,You clicked {count} times!,您點擊了 {count} 次！,لقد نقرت على {count} مرة!,Sie haben {count} Mal geklickt!,Вы націснулі {count} разоў!,Bạn đã nhấp vào {count} lần!
-clicked.one,You clicked {count} time!,您點擊了 {count} 次！,لقد نقرت على {count} مرة!,Sie haben {count} Mal geklickt!,Вы націснулі {count} разоў!,Bạn đã nhấp vào {count} lần!
-clicked.two,You clicked {count} times!,您點擊了 {count} 次！,لقد نقرت على {count} مرة!,Sie haben {count} Mal geklickt!,Вы націснулі {count} разоў!,Bạn đã nhấp vào {count} lần!
-clicked.few,You clicked {count} times!,您點擊了 {count} 次！,لقد نقرت على {count} مرة!,Sie haben {count} Mal geklickt!,Вы націснулі {count} разоў!,Bạn đã nhấp vào {count} lần!
-clicked.many,You clicked {count} times!,您點擊了 {count} 次！,لقد نقرت على {count} مرة!,Sie haben {count} Mal geklickt!,Вы націснулі {count} разоў!,Bạn đã nhấp vào {count} lần!
-clicked.other,You clicked {count} times!,您點擊了 {count} 次！,لقد نقرت على {count} مرة!,Sie haben {count} Mal geklickt!,Вы націснулі {count} разоў!,Bạn đã nhấp vào {count} lần!
-amount.zero,Your amount : {},您的金額：{},المبلغ : {},Deine Klicks: {},Твой счет : {},Số tiền của bạn : {}
-amount.one,Your amount : {},您的金額：{},المبلغ : {},Deine Klicks: {},Твой счет : {},Số tiền của bạn : {}
-amount.two,Your amount : {},您的金額：{},المبلغ : {},Deine Klicks: {},Твой счет : {},Số tiền của bạn : {}
-amount.few,Your amount : {},您的金額：{},المبلغ : {},Deine Klicks: {},Твой счет : {},Số tiền của bạn : {}
-amount.many,Your amount : {},您的金額：{},المبلغ : {},Deine Klicks: {},Твой счет : {},Số tiền của bạn : {}
-amount.other,Your amount : {},您的金額：{},المبلغ : {},Deine Klicks: {},Твой счет : {},Số tiền của bạn : {}
-gender.male,Hi man ;),餵伙計 ;）,مرحبا يا رجل ؛),Hallo Mann ;),прывітанне чалавек;),xin chao anh bạn ;)
-gender.female,Hello girl :),你好姑娘 ：）,مرحبا بك ايتها الفتاة :),hallo Mädchen :),прывітанне дзяўчынка :),chào cô gái :)
-gender.with_arg.male,Hi man ;) I am {name}.,餵伙計 ;）I am {name}.,مرحبا صديقي؛) انا {name}.,Hallo Kumpel ;) Ich bin {Name}.,"Прывітанне, сябар ;) Я {name}.",Xin chào bạn thân;) Tôi là {name}.
-gender.with_arg.female,Hello girl :) I am {name}.,你好姑娘 ：）I am {name}.,مرحبا فتاة :) انا {name}.,Hallo Mädchen :) Ich bin {Name}.,"Прывітанне, дзяўчынка :) Я {name}.",Xin chào cô gái :) Tôi là {name}.
-reset_locale,Reset Saved Language,重置保存的語言,إعادة تعيين اللغة المحفوظة,Zurücksetzen einer gespeicherten Sprache,Скінуць захаваную мову,Đặt lại ngôn ngữ đã lưu
-supported_language,Supported language: {language},支持的語言：{language},اللغات المدعومة: {language},Unterstützte Sprachen: {Sprache},"Мовы, якія падтрымліваюцца: {language}",Các ngôn ngữ được hỗ trợ: {language}
-msg,Hello {name} in the {type} world,您好 {name} 在 {type} 世界,مرحبًا {name} في {type} العالم,Hallo {name} in der Welt von {type},"Прывітанне, {name}, у свеце {type}",Xin chào {name} trong thế giới {type}
-hello,Hello -  {name} {},哈囉 -  {name} {},مرحبًا - {name} {},Hallo - {name} {},Прывітанне - {name} {},Xin chào - {name} {}
+str,vi_VN,en_US
+field.required,Trường này là bắt buộc!,This field is required!
+field.invalidEmail,Email không đúng định dạng!,Email invalidate!
+field.pwLength,Mật khẩu của bạn phải dài từ {} đến {} ký tự!,Your password length must be between {} to {} characters!
+field.pwSpace,Mật khẩu của bạn không thể bắt đầu hoặc kết thúc bằng khoảng trống!,Your password cannot start or end with a space!
+field.character,ký tự,character
+field.invalidPhone,Số điện thoại không đúng định dạng!,Invalid phone number!
+field.invalidPhoneShort,SĐT không đúng định dạng!,Invalid phone!
+field.phoneEmpty,Nhập số điện thoại để tiếp tục,Please enter phone number
+field.invalidRePw,Xác nhận mật khẩu không trùng khớp,Confirm password does not match
+field.continue,Tiếp tục,Continue
+field.register,Đăng ký,Register
+field.phoneNumber,Số điện thoại,Phone Number
+field.fullName,Họ tên,Full name
+field.inputNumber,Nhập số,Input number
+field.email,Email,Email
+field.oldPass,Mật khẩu cũ,Old password
+field.newPass,Mật khẩu mới,New password
+field.renewPass,Xác nhận mật khẩu,Confirm password
+field.savePwd,Lưu mật khẩu,Save password
+field.pwd,Mật khẩu,Password
+field.fullNameRequired,Nhập họ tên để tiếp tục,Please enter full name
+field.pwRequired,Nhập mật khẩu để tiếp tục,Please enter password
+field.ok,OK,OK
+field.cancel,Hủy,Cancel
+field.thereIs,Có,There is
+field.thereAre,Có,There are
+field.delete,Xóa,Delete
+field.deleted,{} đã xoá,Deleted {}
+field.deleteSuccess,Xóa {} thành công!,Xóa {} successfully!
+field.deleteMsg,Bạn muốn xóa {} này?,Do you want to delete this {}?
+field.noPermissionDelete,không có quyền xóa.,that do not have the permission to delete.
+field.doesntHaveViewPermission,Bạn không có quyền xem {} này!,You do not have the permission to view this {}!
+field.doesntHaveDeletePermission,Bạn không có quyền xoá {} này!,You do not have the permission to delete this {}!
+field.doesntHaveTransferPermission,Bạn không có quyền chuyển giao {} này!,You do not have the permission to transfer this {}!
+field.dataWillDelete.other,Dữ liệu của {} {name} đã chọn sẽ bị xóa.,The data of {} selected {name}s will be delete.
+field.dataWillDelete.one,Dữ liệu {name} đã chọn sẽ bị xóa.,The selected {name} data will be delete.
+field.dataWillTransfer.other,Dữ liệu của {} mục sẽ được chuyển giao.,The data of {} selected item will be transfer.
+field.dataWillTransfer.one,Dữ liệu của {} mục sẽ được chuyển giao.,The data of {} selected items will be transfer.
+field.onlyDelete,Bạn chỉ có quyền xóa,You can only delete
+field.transferSuccess,Chuyển giao {} thành công!,Transfer {} successfully!
+field.close,Đóng,Close
+field.add,Thêm,Add
+field.added,{} đã thêm,Added {}
+field.search,Tìm kiếm,Search
+field.create,Thêm mới,Create
+field.createBy,Được tạo bởi,Created By
+field.pic,Phụ trách bởi,Person in charge
+field.createSuccess,Thêm mới thành công!,Create successfully!
+field.viewDetail,Xem chi tiết,See detail
+field.available,Có,
+field.linkAccount,Liên kết,Link
+field.linkAccountNow,Liên kết ngay,Link now
+field.linkAccountMsg,Liên kết tài khoản,Link account
+field.backToExit,Chạm lần nữa để thoát!,Press back again to exit
+field.anErrorOccurred,Có lỗi xảy ra. Vui lòng thử lại.,An error occurred. Please try again.
+field.characters,{}/{} ký tự,{}/{} characters
+field.character,ký tự,characters
+field.sort,Sắp xếp,Sort
+field.setAgain,Đặt lại,Set again
+field.apply,Áp dụng,Apply
+field.active,Đang hoạt động,Active
+field.active2,Hoạt động,Active
+field.deactive,Ngừng hoạt động,Deactive
+field.deactive2,Tạm đóng,Deactive
+field.pending,Chờ duyệt,Pending
+field.all,Tất cả,All
+field.private,Riêng tư,Private
+field.public,Công khai,Public
+field.toContinue,{} để tiếp tục!,{} to continue!
+field.emptySearch,Không tìm thấy kết quả phù hợp!,No matching results found!
+field.edit,Sửa,Edit
+field.onNotify,Bật thông báo,Turn on notify
+field.offNotify,Tắt thông báo,Turn off notify
+field.setting,Cài đặt,Setting
+field.description,Mô tả,Description
+field.cancelRequest,Hủy yêu cầu,Cancel request
+field.join,Tham gia,Join
+field.fullDescription,Thông tin mô tả,Description
+field.assignRole,Phân quyền,Assign Role
+field.save,Lưu,Save
+field.notSave,Không lưu,Doesn't save
+field.saveInfo,Lưu thông tin,Save
+field.accept,Đồng ý,Accept
+field.reject,Từ chối,Reject
+field.addedBy,Thêm bởi {},Added by {}
+field.yourself,bạn,yourself
+field.inputPwdToConfirm,Vui lòng nhập mật khẩu để xác nhận,Please enter password to confirmation
+field.hintPwdToConfirm,Nhập mật khẩu xác nhận,Enter password to confirmation
+field.confirm,Xác nhận,Confirm
+field.done,Xong,Done
+field.resend,Gửi lại,Resend
+field.syncContacts,Đồng bộ từ danh bạ,Sync from contacts
+field.requestSyncContacts,MeeyCRM cần truy cập danh bạ trên thiết bị của bạn để đồng bộ với máy chủ.,MeeyCRM need to access your contacts to synchonize with server.
+field.contacts,danh bạ,contacts
+field.image,ảnh,image
+field.contact,Liên hệ,Contact
+field.noDevicePermission,MeeyCRM chưa có quyền truy cập {} trên thiết bị của bạn. Vui lòng vào Cài đặt để thiết lập!,MeeyCRM does not have permission to access {} on your device. Please go to Settings to set up!
+field.setup,Cài đặt,Set up
+field.noData,Không có dữ liệu!,No data!
+field.wrongPwd,Mật khẩu không chính xác!,Incorrect password!
+field.version,Phiên bản {},Version {}
+field.custom,Tùy chỉnh,Custom
+field.complete,Hoàn thành,Complete
+field.back,Quay lại,Back
+field.otherMember,Thành viên khác,Other members
+field.realEstate,BĐS,Real Estate
+field.customer,Khách hàng,Customer
+field.demand,Nhu cầu,Demand
+field.organization,Tổ chức,Organization
+field.viewMore,Xem thêm,View more
+field.collapse,Thu gọn,Collapse
+field.requireVerifyPhone,"Để sử dụng tính năng này, vui lòng liên kết và xác thực số điện thoại của bạn.",Please link and verify your phone number to access this feature.
+field.gallery,thư viện ảnh,gallery
+field.exit,Thoát,Exit
+field.recentSearch,Tìm kiếm gần đây,Recent search
+field.joined,Đã tham gia,Joined
+field.send,Gửi,Send
+field.sms,Nhắn tin,SMS
+field.newSMS,Tin nhắn mới,New SMS
+field.smsHint,Nhập nội dung tin nhắn,Enter message content
+field.booking,Đặt lịch,Booking
+field.call,Gọi điện,Call
+field.sendMail,Gửi thư,Send mail
+field.title,Tiêu đề,Title
+field.inputTitle,Nhập tiêu đề,Input title
+field.inputTitleToContinue,Nhập tiêu đề để tiếp tục!,Input title to continue!
+field.code,Mã {},{} code
+field.inputCode,Nhập mã {},Input {} code
+field.select,Chọn {},Select {}
+field.nameType,Tên {},{} name
+field.inputType,Nhập {},Input {}
+field.input,Nhập,Enter
+field.day,ngày,day
+field.week,tuần,week
+field.month,tháng,month
+field.year,năm,year
+field.existed,{} đã tồn tại!,{} has been existed!
+field.review,Đánh giá,Review
+field.point,Điểm,Point
+field.yes,Có,Yes
+field.no,Không,No
+field.detail,Chi tiết,Details
+field.value,Giá trị,Value
+field.price,Giá,Price
+field.cost,Chi phí,Cost
+field.detailInfo,Thông tin chi tiết,Detail information
+field.otherInfo,Thông tin khác,Other information
+field.additionalInfo,Thông tin bổ sung,Additional information
+field.info,Thông tin,Information
+field.interactive,Tương tác,Interactive
+field.discussion,Thảo luận,Discussion
+field.media,Media,Media
+field.takePhoto,Chụp ảnh,Take photo
+field.status,Trạng thái,Status
+field.time,Thời gian,Time
+field.number,Số,Number
+field.step,Bước,Step
+field.success,{} thành công!,{} successfully!
+field.error,Lỗi,Error
+field.download,Tải xuống,Download
+field.transfer,Chuyển giao,Transfer
+field.share,Chia sẻ,Share
+field.multipleSelect,Chọn nhiều,Multiple select
+field.maxSelect,Bạn có tối đa {} lựa chọn!,Maximum selection is {}!
+field.report,Báo cáo vi phạm,Report violate
+field.updateSuccess,Cập nhật {} thành công!,Update {} successfully!
+field.videoFailed,Tải video thất bại,Failed load video
+field.invite,Mời,Invite
+field.noPermission,Bạn không có quyền truy cập!,Access denied!
+field.createdDate,Ngày tạo,Created date
+field.updatedDate,Ngày cập nhật,Updated date
+field.update,Cập nhật,Updated
+field.resultNumber.one,1 kết quả,1 result
+field.resultNumber.other,{} kết quả,{} results
+field.from,Từ,From
+field.to,Đến,To
+field.fromDate,Từ ngày,From date
+field.toDate,Đến ngày,To date
+field.invalidTime,Thời gian không hợp lệ,Invalid time
+field.edit2,Chỉnh sửa,Edit
+field.uploadImage,Tải ảnh lên,Upload image
+field.imageTypeSize,"Chỉ JPG, GIF hoặc PNG lớn nhất là 10MB","Only JPG, GIF or PNG and maximum size is 10MB"
+field.cancelAddMsg,Bạn muốn hủy tạo {} này?,Do you want to cancel create this {}?
+field.cancelEditMsg,Bạn muốn hủy chỉnh sửa {} này?,Do you want to cancel edit this {}?
+field.cancelAdd,Hủy tạo {},Cancel create {}
+field.cancelEdit,Hủy chỉnh sửa {},Cancel edit {}
+field.wasViewBy,Đã xem bởi,Viewed by
+field.hot,"Hot, Gấp","Hot, Urgent"
+field.investable,Đầu tư được,Investable
+field.invest,Đầu tư,Invest
+field.draftSave,Lưu nháp,Draft save
+field.underDevelop,Tính năng đang phát triển.,The feature is currently under development.
+field.location,Địa điểm,Location
+field.today,Hôm nay,Today
+field.direction,Hướng,Direction
+discuss.reply,Trả lời,Reply
+discuss.like,Thích,Like
+discuss.viewReply,Xem trả lời,View reply
+discuss.typing,Đang trả lời,Typing
+crop.guide,Bạn có thể di chuyển hoặc zoom ảnh,You can move and zoom your photo
+crop.addImage,Thêm mới ảnh đại diện,Add group picture
+crop.updateImage,Cập nhật ảnh đại diện,Update group picture
+menu.home,Trang chủ,Home
+menu.more,Menu,Menu
+menu.note,Ghi chú,Note
+menu.notification,Thông báo,Notifications
+menu.message,Tin nhắn,Message
+menu.feed,Bảng tin,New feeds
+menu.project,Dự án,Projects manage
+menu.organization,Tổ chức,Organizations
+menu.demand,Yêu thích,Favourite
+menu.post,Tin đăng,Posts
+menu.pricing,Bảng giá,Pricing
+menu.account,Tài khoản,Account
+menu.rawData,Kho data,Raw data
+menu.statistic,Báo cáo,Statistics
+menu.investor,Đầu tư,Investors
+setting.extend,Chức năng mở rộng,Extended feature
+setting.project,Quản lý dự án,Projects manage
+setting.organization,Quản lý tổ chức,Organizations manage
+setting.demand,Nhu cầu yêu thích,Favourite demands
+setting.post,Kho tin đăng,Posts
+setting.pricing,Bảng giá dịch vụ,Pricing
+setting.account,Quản lý tài khoản,Account
+setting.rawData,Kho dữ liệu thô,Raw data
+setting.statistic,"Kho báo cáo, thống kê",Statistics
+setting.investor,Kho nhà đầu tư,Investors
+setting.transaction,Quản lý giao dịch,Transactions
+setting.storage,Quản lý dung lượng,Storage
+setting.help,Giúp đỡ và hỗ trợ,Help and support
+setting.privacy,Quyền riêng tư,Privacy
+setting.myFeature,Chức năng của tôi,My feature
+setting.addFeature,Thêm mới chức năng,Add feature
+setting.preview,Xem trước điều hướng,Navigation preview
+setting.selectFeature,Chọn chức năng bạn hay sử dụng (tối đa {}),Select your most used features (max {})
+setting.selectFeatureMsg,Bạn chỉ được chọn tối đa {} chức năng!,You can only choose up to {} features!
+setting.updateFeatureMsg,Cập nhật vị trí chức năng thành công!,Update feature's position successfully!
+setting.logout,Đăng xuất khỏi tài khoản này,Logout from this account
+setting.swapAccount,Chuyển đổi tài khoản,Swap account
+setting.swapAccountMsg,Bạn chỉ được lưu trữ tối đa 5 tài khoản trên thiết bị!,You can only save up to {} accounts on this device!
+setting.loginOtherAccount,Đăng nhập bằng tài khoản khác,Sign in with another account
+intro.title.1,"Truy cập mọi lúc, mọi nơi","Access anytime, anywhere"
+intro.title.2,Hoạt động hội nhóm hiệu quả,Effective teamwork
+intro.title.3,Quản lý khách hàng chuyên nghiệp,Professional customer management
+intro.title.4,Bảo mật thông tin khách hàng,Confidentiality of customer information
+intro.title.5,Quản lý quỹ hàng linh hoạt,Flexible supply management
+intro.title.6,So khớp thông minh,Intelligent matching engine
+intro.title.7,Thông báo tức thời,Instant notification
+intro.title.8,"Báo cáo chi tiết, minh bạch",Detailed & transparent reports
+intro.subTitle.1,"Cập nhật, chỉnh sửa dữ liệu, chia sẻ thông tin và xử lý công việc bất kỳ đâu, bất kỳ lúc nào","Update, edit data; share information; and process work anytime, anywhere"
+intro.subTitle.2,"Chia sẻ dữ liệu, cộng tác với các thành viên trong và ngoài nhóm một cách dễ dàng và thuận tiện","Share, collaborate with members inside and outside the group easily and conveniently"
+intro.subTitle.3,"Bám sát trạng thái, dữ liệu khách hàng, lưu trữ lịch sử tương tác với khách hàng","Track status & customer data, save interaction history with customers"
+intro.subTitle.4,"Phân quyền chuyên sâu, bảo mật từng chi tiết dữ liệu khách hàng",Perform in-depth assignment and protect every detail of customer data
+intro.subTitle.5,Lưu trữ thông tin linh hoạt theo đặc điểm từng loại bất động sản và phù hợp với mọi đối tượng,"Store supply information according to the characteristics of each property type, which are suitable for all subjects"
+intro.subTitle.6,Tự động so khớp chính xác và liên tục nhu cầu của khách hàng với các bất động sản để nắm bắt cơ hội bán hàng,Automatically and accurately match customer demands with properties to capture sale opportunities
+intro.subTitle.7,"Thông báo, nhắc nhở ngay tức thì lịch hẹn, công việc quá hạn, chưa xử lý...","Instantly notify and remind appointments, overdue and unprocessed work"
+intro.subTitle.8,"Tổng hợp dữ liệu đầy đủ và báo cáo rõ ràng, được cập nhật theo thời gian thực","Comprehensive data aggreration and transparent reports, real-time update"
+intro.tryNow,Trải nghiệm ngay,Try now
+auth.termAndPolicy,"Bằng việc tiếp tục, bạn đã đồng ý với -điều khoản sử dụng- của Meey CRM","By continue, you agree to -the terms of use- of Meey CRM"
+auth.termAndPolicyDialogTitle,ĐIỀU KHOẢN SỬ DỤNG VÀ CHÍNH SÁCH BẢO MẬT MEEY CRM,TERMS OF USE AND PRIVACY POLICY OF MEEY CRM
+auth.loginByEmail,Đăng nhập bằng email / Tên đăng nhập,Log in by email/user name
+auth.hello,"Xin chào,","Hi,"
+auth.orLoginBy,Hoặc đăng nhập bằng,or
+auth.loginOrRegister,Đăng nhập hoặc tạo tài khoản,Login or create new account
+auth.enterOtp,Nhập mã xác nhận,Enter verification code
+auth.enterOtpMsg,"Để xác minh số điện thoại là của bạn, nhập mã 6 chữ số vừa được gửi đến","To verify our phone number, enter 6-digit verification code sent to"
+auth.cantLogin,Nếu không thể đăng nhập hãy liên hệ với chúng tôi,Contact us for support
+auth.resend,Gửi lại mã?,Resend?
+auth.resendAfter,Gửi lại mã sau,Resend after
+auth.didNotReceiveOTP,Không nhận được mã?,Didn't receive OTP?
+auth.inputAccountInfo,Nhập thông tin tài khoản,Enter account  information
+auth.enterPw,Nhập mật khẩu,Enter password
+auth.forgotPw,Quên mật khẩu?,Forgot password?
+auth.login,Đăng nhập,Login
+auth.resetPwMsg,Nhập mật khẩu tối thiếu 8 ký tự,Enter new password min 8 characters
+auth.resetPw,Tạo mật khẩu mới,Create new password
+auth.resetPwSuccess,Cập nhật mật khẩu thành công,Update password successfully
+auth.inviteCode,Mã giới thiệu,Invite Code
+auth.logout,Đăng xuất,Sign Out
+auth.confirmAccount,Xác nhận tài khoản,Confirm account
+auth.confirmPhoneAccount,Nhập số điện thoại để xác nhận,Please enter phone number to confirm
+auth.verifyAccount,Xác thực tài khoản,Verify account
+auth.verifyPhoneAccount,Xác thực số điện thoại ngay để nhận được nhiều tiện ích,Verify phone number to use more services
+auth.appleResetPwd,Mời nhập thông tin email để đặt lại mật khẩu,Please enter email to reset password
+auth.linkAppleAccount,"đã đăng ký tài khoản Meey CRM, nếu bạn muốn liên kết với email đã có, vui lòng xác nhận mật khẩu.","was registered with Meey CRM, please enter password to link with existed email."
+auth.linkAppleAccountSuccess,Liên kết tài khoản thành công.,Link account successfully
+auth.requestAccepted,Yêu cầu được chấp nhận,Request has been accepted
+auth.requestAppleAccepted,Yêu cầu của bạn đã được chấp nhận. Vui lòng kiểm tra email để tiếp tục quy trình đặt lại mật khẩu,Request has been accepted. Please check email to reset password
+auth.verifyPhoneMsg,Xác thực số điện thoại ngay để nhận được nhiều tiện ích,Verify phone now for more services
+auth.sendOTPMsg,Gửi yêu cầu thành công!,Send request successfully!
+auth.maxVerifyOtp,Vượt quá số lần xác thực OTP. Vui lòng thực hiện lại.,Verification by OTP has been exceeded. Please try again later.
+auth.maxResendOtp,Vượt quá số lần gửi mã xác thực cho phép (tối đa 3 lần trong vòng 15 phút). Vui lòng thử lại sau.,Resend OTP has been exceeded (maximum 3 times in 15 minutes). Please try again later.
+auth.deleteAccountMsg,Thao tác này sẽ xoá tài khoản khỏi hệ thống. Nếu bạn muốn sử dụng lại thì chỉ cần đăng nhập. Bạn có chắc chắn muốn xoá tài khoản?,"This action will remove the account from the system. If you want to use it again, just log in. Are you sure you want to delete your account?"
+realEstate.title,Quỹ hàng,Real Estate
+realEstate.name,bất động sản,Real Estate
+realEstate.needSale,Cần bán,For sale
+realEstate.needBuy,Cần mua,For purchase
+realEstate.sale,Bán,Sale
+realEstate.forRent,Cho thuê,For rent
+realEstate.transfer,Sang nhượng,For transfer
+realEstate.buy,Mua,Buy
+realEstate.rent,Thuê,Rent
+realEstate.buyTransfer,Mua sang nhượng,Buy transfer
+realEstate.type,Loại nhà đất,Real Estate Types
+realEstate.basicInfo,Thông tin cơ bản,Basic Information
+realEstate.create,Tạo bất động sản,Create Real Estate
+realEstate.createSuccessfully,Tạo bất động sản thành công!,Create real estate successfully!
+realEstate.available,Trống,Empty
+realEstate.hold,Đặt chỗ,Booked
+realEstate.deposit,Đặt cọc,Deposit
+realEstate.close,Đóng,Close
+realEstate.sector,Khu,Khu
+realEstate.zone,Phân khu,Zone
+realEstate.project,Dự án,Project
+realEstate.projectName,Tên dự án,Project name
+realEstate.groupProject,Dự án của nhóm,Group project
+realEstate.nationProject,Dự án toàn quốc,Nationwide project
+realEstate.city,Tỉnh/ TP,City
+realEstate.district,Quận/ huyện,District
+realEstate.ward,Phường/ xã,Ward
+realEstate.street,Đường/ phố,Street
+realEstate.owner,Chính chủ,Owner
+realEstate.interestedCustomer,Khách quan tâm,Interested customer
+realEstate.interestedBuyCustomer,Khách có nhu cầu mua,Interested purchase customer
+realEstate.selectCustomer,Chọn khách hàng,Select customer
+realEstate.businessType,Loại hình kinh doanh,Business type
+realEstate.rentType,Hình thức thuê,Rent type
+realEstate.table,Bảng hàng,Fund table
+realEstate.tableName,Tên bảng hàng,Fund table name
+realEstate.buildingOrBlock,Tòa/block,Building/block
+realEstate.apartmentPos,Tên vị trí căn,Apartment position
+realEstate.apartmentNumber,Số thứ tự căn,Apartment number
+realEstate.rentBy,Thuê theo {},Rent by {}
+realEstate.address,Địa chỉ,Address
+realEstate.tags,Tag,Tags
+realEstate.table,Bảng,Table
+realEstate.deleteReviewMsg,Đánh giá này cũng sẽ bị xoá ở những bất động sản đã được tạo.,This review also deletes from created real estate.
+realEstate.reviewPrice,Đánh giá về giá,Review about price
+realEstate.coordinates,Tọa độ,Coordinates
+realEstate.coordinatesMsg,Vui lòng nhập đầy đủ thông tin trước khi thêm tọa độ mới,Please fill informations before add coordinates
+realEstate.interiorGroup,"Nội thất, thiết bị, tiện ích","Interior, equipment, utilities"
+realEstate.utilities,Tiện ích,Utilities
+realEstate.interiorEquipment,"Nội thất, thiết bị","Interior, equipment"
+realEstate.showMoreInteriorEquipment,"Hiển thị thêm nội thất, thiết bị","Show more interior, equipment"
+realEstate.balconyDirection,Hướng ban công,Balcony direction
+realEstate.interiorCost,Chi phí nội thất,Interior cost
+realEstate.totalPrice,Tổng giá,Total price
+realEstate.maintanceCost,Phí bảo trì,Maintance cost
+realEstate.otherCost,Chi phí khác,Other cost
+realEstate.vatAndOtherCost,Phí VAT và các chi phí khác,VAT and other cost
+realEstate.contractValue,Tổng giá trị hợp đồng,Total contract value
+realEstate.lastPrice,Giá chốt,Last price
+realEstate.commission,Hoa hồng,Commission
+realEstate.commissionValue,Tiền hoa hồng,Commission value
+realEstate.unitPrice,Đơn giá,Unit price
+realEstate.roadWidth,Đường rộng,Road width
+realEstate.rear,Mặt sau,Rear
+realEstate.frontage,Mặt tiền,Frontage
+realEstate.depth,Chiều sâu,Depth
+realEstate.doorDirection,Hướng cửa,Door direction
+realEstate.numberOfFloor,Số tầng,Number of floors
+realEstate.floor,Vị trí tầng,Floor
+realEstate.numberOfBedRoom,Số phòng ngủ,Number of bed rooms
+realEstate.numberOfBathRoom,Số phòng tắm,Number of bath rooms
+realEstate.motorSlot,Chỗ để xe máy,Motorbike parking slots
+realEstate.carSlot,Chỗ để ô tô,Car parking slots
+realEstate.packingSlot,Có chỗ đỗ xe,Parking slots available
+realEstate.properties,Đặc điểm,Properties
+realEstate.mostProperty,Đặc điểm nổi trội,Outstanding property
+realEstate.legalDocument,Tài liệu pháp lý,legal document
+realEstate.cons,Nhược điểm,Nhược điểm
+realEstate.area,Diện tích,Area
+realEstate.centerWallArea,Diện tích tim tường,Center wall area
+realEstate.useArea,Diện tích sử dụng,Use area
+realEstate.netFloorArea,Diện tích thông thủy,Net floor area
+realEstate.grossFloorArea,Diện tích xây dựng,Gross floora area
+realEstate.landArea,Diện tích đất,Land area
+realEstate.landUnitPrice,Đơn giá đất,Land unit price
+realEstate.totalLandPrice,Tổng giá đất,Total land price
+realEstate.buildingArea,Diện tích xây dựng,Building area
+realEstate.constructionUnitPrice,Đơn giá xây dựng,Construction unit price
+realEstate.totalConstructionCost,Tổng giá xây dựng ,Total construction cost
+realEstate.basedOnNetFloorArea,theo DT thông thủy,based on net floor area
+realEstate.buildingType,Loại căn,BuildingType
+realEstate.transferDate,Ngày bàn giao,Transfer date
+realEstate.rentalGroup,Đơn vị đang thuê,Rental group
+realEstate.source,Nguồn tin,Source
+realEstate.contractDuration,Thời hạn hợp đồng,Contract duration
+realEstate.noOfPaper,Số tờ,No. of paper
+realEstate.noOfPlot,Số thửa,No. of plot
+realEstate.extractlyAddress,Địa chỉ cụ thể,Extractly address
+realEstate.extractlyAddressInRecord,Địa chỉ hiển thị trong chi tiết BĐS,Extractly address in real estate detail
+realEstate.openTransaction,Mở giao dịch,Open transaction
+realEstate.notOpenTransaction,Chưa mở giao dịch,Transaction isn't open
+realEstate.openTransactionMsg,"Những bất động sản mở giao dịch mới có quyền tạo nhu cầu: Bán, cho thuê, sang nhượng. ","Only open transaction real estate can create demand: Sale, Rent, Transfer."
+realEstate.requiredMedia,Bạn cần tải lên tối thiểu 1 ảnh hoặc video!,You need upload atleast 1 image or video!
+realEstate.requiredMember,Bạn chưa chọn thành viên nào!,You need select atleast 1 member!
+realEstate.media,"Hình ảnh, video","Image, videos"
+realEstate.mediaUpload,Tải lên tối thiểu 1 ảnh hoặc 1 video.,Upload atleast 1 image or video.
+realEstate.mediaNote1,"Mỗi lượt tải lên tối đa 10 ảnh, video.",Maximum 10 images and videos on each upload
+realEstate.mediaNote2,Dung lượng video tối đa 250 MB.,Maximum video size is 250 MB.
+realEstate.mediaNote3,Giữ và kéo để sắp xếp vị trí của ảnh khi hiển thị.,Drag and drop to reorder list image.
+realEstate.mediaNote4,Ảnh bị khóa không hiển thị với thành viên khác.,Locked image will hide with others member.
+realEstate.mediaNote5,"Ảnh, video vi phạm chính sách sản phẩm sẽ bị xóa",Photos and videos that violate product policies will be deleted
+realEstate.east,Đông Tứ Trạch,East
+realEstate.west,Tây Tứ Trạch,West
+realEstate.receiveDate,Ngày nhận,Receive date
+realEstate.importDate,Ngày nhập,Import date
+realEstate.referralPerson,Người giới thiệu,Referral
+realEstate.noticePerson,Người thông báo,Notice person
+realEstate.verifier,Người xác minh,Verifier
+realEstate.receiver,Người nhận,Receiver
+realEstate.customerNotice,KH báo tin,Customer notice
+realEstate.informTo,Báo cho ai,Inform to
+realEstate.informPerson,người được báo tin,inform person
+realEstate.negotiate,Thương lượng,Negotiate
+realEstate.beds.one,01 PN,01 bed
+realEstate.beds.other,{} PN,{} beds
+realEstate.restRoom.one,01 WC,01 WC
+realEstate.restRoom.other,{} WC,{} WC
+realEstate.motorBike.one,01 xe máy,01 motorbike
+realEstate.motorBike.other,{} xe máy,{} motorbikes
+realEstate.car.one,01 ô tô,01 car
+realEstate.car.other,{} ô tô,{} cars
+realEstate.item,Mục,Item
+realEstate.item.one,1 mục,1 item
+realEstate.item.other,{} mục,{} items
+realEstate.delete,Xóa bất động sản,Delete real estate
+realEstate.noPermissionDelete.one,Có 1 bất động sản không có quyền xóa.,There is 1 real estates that do not have the permission to delete.
+realEstate.noPermissionDelete.other,Có {} bất động sản không có quyền xóa.,There are {} real estates that do not have the permission to delete.
+realEstate.deleteSuccessfully,Xóa bất động sản thành công!,Delete real estate successfully!
+realEstate.doesntHaveDeletePermission,Bạn không có quyền xoá bất động sản này!,You do not have the permission to delete this real estate!
+realEstate.doesntHaveTransferPermission,Bạn không có quyền chuyển giao bất động sản này!,You do not have the permission to transfer this real estate!
+realEstate.transferTitle,Chuyển giao bất động sản,Real estate transfer
+realEstate.transferSuccessfully,Chuyển giao bất động sản thành công!,Transfer real estate successfully!
+realEstate.limitTransfer.one,Bạn chỉ có thể chuyển giao 1 mục.,You can only transfer 1 item.
+realEstate.limitTransfer.other,Bạn chỉ có thể chuyển giao {} mục.,You can only transfer {} items.
+realEstate.cannotTransfer.one,Có 1 mục không thể chuyển giao.,There is 1 item that cannot be transferred.
+realEstate.cannotTransfer.other,Có {} mục không thể chuyển giao.,There are {} items that cannot be transferred.
+realEstate.selectMemterToContinue,Vui lòng chọn thành viên để tiếp tục.,Please select a member to continue
+realEstate.addCustomer,Thêm khách hàng,Add customer
+realEstate.addOwner,Thêm chính chủ,Add owner
+realEstate.creator,Người tạo,Creator
+realEstate.existDemandTransaction,Những bất động sản này đã tồn tại nhu cầu giao dịch nên bạn không thể xóa,"These real estates already exist in demand for transactions, so you can't delete them."
+realEstate.noRightDelete,Bạn không thể xóa những bất động sản này,You cannot delete these properties
+realEstate.dataWillDelete.other,Dữ liệu của {} bất động sản đã chọn sẽ bị xóa.,The data of {} selected properties will be deleted.
+realEstate.dataWillDelete.one,Dữ liệu bất động sản đã chọn sẽ bị xóa.,The selected real estate data will be deleted.
+realEstate.onlyDelete.other,Bạn chỉ có quyền xóa {} bất động sản. ,You can only delete {} real estates.
+realEstate.onlyDelete.one,Bạn chỉ có quyền xóa 1 bất động sản. ,You can only delete 1 real estate.
+realEstate.cannotDelete.one,Có 1 bất động sản không thể xoá do không có quyền hoặc đã tồn tại nhu cầu giao dịch tương ứng,There is 1 real estate that cannot be deleted because there is no right or there is a need for a corresponding transaction
+realEstate.cannotDelete.other,Có {} bất động sản không thể xoá do không có quyền hoặc đã tồn tại nhu cầu giao dịch tương ứng,There are 10 real estates that cannot be deleted due to lack of rights or corresponding transaction needs
+realEstate.makeACopy,Tạo bản sao,Make a copy
+realEstate.postMeeyLand,Đăng tin Meey Land,Post Meey Land
+realEstate.demandCreated,Nhu cầu đã tạo,Demand created
+realEstate.otherType,Loại hình khác ,Other type
+realEstate.selectType,Chọn loại hình,Select type
+realEstate.onlyTwoTypes,Chỉ được chọn thêm tối đa 2 loại!,You can only choose up to 2 types!
+realEstate.keepSearchMsg,Bạn có muốn hiển thị danh sách quỹ hàng với từ khóa tìm kiếm hiện tại?,Do you want to display real estates with current search key words?
+realEstate.calculateCommmission,Cách thức tính tiền hoa hồng,How to calculate commission
+realEstate.fomulaCommmission,Tiền hoa hồng được tính theo giá chốt. Không có giá chốt thì sẽ được tính theo tổng giá trị hợp đồng.,"The commission is calculated according to the closing price. If there is no closing price, it will be calculated according to the total contract value."
+realEstate.purposeOfUse,Mục đích sử dụng,Purpose Of Use
+realEstate.reason,Lý do {},Reason for {}
+realEstate.priceRange,Khoảng giá,Price range
+realEstate.areaRange,Khoảng diện tích,Area range
+realEstate.rentalFee,Giá thuê,Rental fee
+realEstate.graveType,Loại mộ phần,Grave Type
+realEstate.searchByCode,Tìm kiếm theo mã hoặc tên,Search by code or name
+filter.name,Bộ lọc,Filters
+filter.savedFilters,Bộ lọc đã lưu,Saved Filters
+filter.clearSavedFilters,Xóa bộ lọc đã lưu,Clear saved filters
+filter.removeFilter,Bạn muốn xóa bộ lọc,You want to remove the filter
+filter.enterFilterNameToContinue,Nhập tên bộ lọc để tiếp tục,Enter the filter name to continue
+filter.saveFilter,Lưu bộ lọc,Save filter
+filter.nameFilter,Đặt tên bộ lọc,Enter filter's name
+filter.editNameFilter,Sửa tên bộ lọc,Edit filter's name
+filter.realEstate,Lọc bất động sản,Filter real estate
+filter.customer,Lọc khách hàng,Filter customer
+filter.saveFilterToHelp,Lưu bộ lọc giúp bạn tăng tốc trải nghiệm khi tìm kiếm {} mong muốn,Save filters to help you speed up the experience when searching for the desired {}.
+filter.apply,Áp dụng bộ lọc:,Apply filter:
+filter.select,Chọn bộ lọc,Select filter
+filter.thisWeek,Tuần này,This week
+filter.lastWeek,Tuần trước,Last week
+filter.nextWeek,Tuần sau,Next week
+filter.thisMonth,Tháng này,This month
+filter.lastMonth,Tháng trước,Last month
+filter.nextMonth,Tháng sau,Next month
+filter.enterFilterName,Nhập tên bộ lọc,Enter the filter name
+group.title,Danh sách nhóm,Groups
+group.name,nhóm,group
+group.addTitle,Thiết lập không gian làm việc,Setup workspace
+group.addDescription,"Không gian làm việc là các nhóm cá nhân ( 1 hoặc nhiều thành viên) hay các nhóm thuộc sàn, tổ chức. Là nơi lưu trữ, hợp tác và chia sẻ dữ liệu khách hàng, quỹ hàng, công việc với các môi giới khác.","Workspaces are groups of individuals (1 or more members) or groups of bourses or organizations. It is a place to store, cooperate and share customer data, real estate, and work with other brokers."
+group.addName,Tên nhóm,Group name
+group.addHintName,Nhập tên nhóm,Enter group name
+group.addDisplayMode,Chế độ hiển thị,Display mode
+group.add,Tạo nhóm làm việc,Create working group
+group.addButton,Tạo nhóm,Create group
+group.cancelAdd,Bạn muốn hủy tạo nhóm làm việc?,Do you want to cancel create a group?
+group.addSuccessfully,Tạo nhóm thành công!,Create group successfully!
+group.addWithOrgSuccessfully,Tạo nhóm thành công. Nhóm đang chờ xác nhận vào tổ chức!,Create group successfully. Group is waiting to appove to organization!
+group.editSuccessfully,Cập nhật thông tin thành công!,Update group successfully!
+group.editWithOrgSuccessfully,Cập nhật thông tin thành công. Nhóm đang chờ xác nhận vào tổ chức!,Update group successfully. Group is waiting to appove to organization!
+group.edit,Sửa nhóm làm việc,Edit group
+group.cancelEdit,Bạn muốn hủy sửa nhóm làm việc ?,Do you want to cancel edit this group?
+group.organizationOrCompany,Tổ chức/ Doanh nghiệp ,Organization/ Company
+group.selectOrganizationOrCompany,Chọn tổ chức/ doanh nghiệp,Select organization/ company
+group.searchOrgById,Tìm kiếm theo mã tổ chức,Search organization by id
+group.private,Nhóm sẽ không hiển thị trên công cụ tìm kiếm với những người bên ngoài nhóm.,n/a
+group.public,Nhóm sẽ hiển thị trên công cụ tìm kiếm với những người bên ngoài nhóm.,n/a
+group.waitForConfirm,Chờ xác nhận,Wait for confirmation
+group.personal,Nhóm cá nhân,Personal group
+group.deactivateMsg,Dữ liệu các nhóm ngừng hoạt động sẽ bị xoá sau 30 ngày. Bạn nên cân nhắc việc lưu trữ.,Data of deactivated groups will be auto-deleted after 30 days. Consider backup your data.
+group.manage,Quản lý nhóm,Manage group
+group.emptyDeactivateMsg,Không có nhóm nào!,No group!
+group.addMsg,Bạn chưa có nhóm làm việc nào. Hãy tạo nhóm để bắt đầu sử dụng!,You don't have any workgroups yet. Create a group to start using!
+group.selectMsg,Vui lòng chọn 1 nhóm làm việc để tiếp tục trải nghiệm!,Please select group to continue!
+group.select,Chọn nhóm,Select group
+group.detail,Thông tin chi tiết nhóm,Group details
+group.addMember,Thêm thành viên,Add member
+group.addMemberSuccessfully,Gửi lời mời vào nhóm thành công!,Send invite successfully!
+group.member,Thành viên,member
+group.cancelAddMember,Bạn muốn hủy thêm những thành viên này vào nhóm?,Cancel process add member to group?
+group.more,Mở rộng,More
+group.members,Danh sách thành viên,Members
+group.totalMembers.one,01 thành viên,01 member
+group.totalMembers.other,{} thành viên,{} members
+group.roleAndPermission,Vai trò và phân quyền,Role and permission
+group.calendar,Lịch nhóm,Group calendar
+group.dynamicLink,Link tham gia nhóm,Invite link
+group.history,Lịch sử nhóm,Group history
+group.outOrg,Rời nhóm khỏi tổ chức,Leave organization
+group.outOrgMsg1,Bạn muốn gỡ nhóm,Do you want to remove
+group.outOrgMsg2,khỏi tổ chức,from
+group.outOrgSuccessfully,Rời nhóm khỏi tổ chức thành công!,Leave organization successfully!
+group.cancelJoinOrgMsg,Huỷ yêu cầu tham gia tổ chức thành công!,Request to join the organization was cancelled!
+group.out,Rời nhóm,Leave group
+group.outMsg,Bạn muốn rời nhóm,Do you want to leave
+group.outAndChangeRoleMsg,Trước khi rời nhóm bạn phải chuyển quyền Trưởng nhóm cho thành viên khác:,"Before leaving the group, you must set a new group admin:"
+group.outMsgSuccessfully,Bạn đã rời khỏi nhóm {}!,You have left the group {}!
+group.close,Đóng nhóm,Close group
+group.closeSuccessfully,Đóng nhóm thành công!,Close group successfully!
+group.open,Mở nhóm,Open group
+group.openSuccessfully,Mở lại nhóm thành công!,Reopen group successfully!
+group.openMsg,Bạn muốn mở lại nhóm,Do you want to reopen
+group.group,Nhóm,Group
+group.closeMsg,sẽ tạm thời ngừng hoạt động và tự xóa sau,temporary deactivate and delete automatic after
+group.pressForMore,Bấm để xem thông tin nhóm,Press for more details
+group.requestOrgTitle,Yêu cầu tham gia tổ chức đang xử lý,Request to join the organization is being processed
+group.requestOrgMsg,Quản trị viên cần xem xét yêu cầu tham gia tổ chức,Moderator needs to review your request to join
+group.requestOrgSubMsg,của bạn,Moderator needs to review your request to join
+group.roleName,Tên vai trò,Role name
+group.setDefaultRole,Đặt làm vai trò mặc định,Set role as default
+group.setDefaultRoleMsg,Cập nhật vai trò mặc định thành công!,Default role update successful!
+group.enterRoleName,Nhập tên vai trò,Enter roler name
+group.deleteRole,Xóa vai trò,Delete role
+group.roleMember.one,Thành viên (01),Member (01)
+group.roleMember.other,Thành viên ({}),Members ({})
+group.changeRole,Chuyển vai trò,Change role
+group.changeRoleMsg,Chuyển vai trò thành công!,Role changed successfully!
+group.changeRoleTitle,Chọn vai trò mới cho thành viên,Select new role for
+group.changeDefaultRoleTitle,Chọn vai trò mặc định,Select default role
+group.changeDefaultRoleMsg,Bạn cần chọn 1 vai trò là mặc định cho các thành viên khi được mời vào nhóm:,You need to choose 1 role as default for members when invited to the group:
+group.changeRoleOwnerTitle,Bạn muốn chuyển vai trò trưởng nhóm cho thành viên,Do you want to change group owner for
+group.changeRoleOwnerSubTitle,Hãy chọn vai trò mới của bạn trước khi chuyển:,Select new role before change:
+group.hintSearchMembers,Tìm kiếm theo số điện thoại,Search by phone number
+group.addMemberTitle,Thêm thành viên vào nhóm,Add group member
+group.myRole,Vai trò của tôi,My role
+group.selectRoleMembers,Chọn vai trò cho thành viên,Change role members
+group.sendInviteMember,Gửi lời mời,Invite
+group.deleteRoleTitle1,Hiện tại có {} thành viên giữ vai trò,There are {} members with role
+group.deleteRoleTitle2,Vui lòng chọn vai trò mới cho các thành viên trước khi xóa vai trò: ,Please select new role for these members before delete:
+group.deleteDefaultRoleTitle,Vui lòng chọn vai trò mới cho các thành viên và cập nhật vai trò mặc định trước khi xóa vai trò:,Please select new role for these members and update default role before delete:
+group.deleteRoleConfirm,Bạn muốn xóa vai trò,Do you want to delete
+group.deleteRoleSuccess,Xóa vai trò {} thành công!,Delete {} role successfully!
+group.addRoleSuccess,Thêm mới vai trò thành công!,Create role successfully!
+group.updateRoleSuccess,Cập nhật vai trò thành công!,Update role successfully!
+group.addRole,Thêm mới vai trò,Create new role
+group.role,vai trò,role
+group.selectNewDefaultRole,Chọn vai trò mặc định mới,Select new default role
+group.selectNewRole,Chọn vai trò mới cho thành viên,Select new role
+group.selectNewDefaultRoleMsg,Bạn cần chọn 1 vai trò là mặc định cho các thành viên được mời vào nhóm trước khi xóa vai trò:,Please select new default role before delete this role:
+group.inviteLinkTitle,Chia sẻ nhóm thông qua link liên kết,Share group via link
+group.inviteLinkMsg,Quét mã QR hoặc chia sẻ link để thêm mới các thành viên vào nhóm làm việc,Scan QR code or share link for add more members to group
+group.inviteLinkCopy,Sao chép link,Copy link
+group.inviteLinkShare,Chia sẻ link,Share link
+group.inviteLinkCopySuccessfully,Sao chép link thành công!,Copy link successfully!
+group.inviteLinkLocked,Link tham gia nhóm đã tạm thời bị trưởng nhóm khóa!,Invite link has been locked by admin!
+group.crmName,Tên CRM: {},CRM's name: {}
+group.ownGroup,Nhóm của bạn,Your group
+group.joinMsg,Yêu cầu tham gia nhóm đang chờ quản trị viên duyệt!,Your request is waiting for approve by moderator!
+group.cancelJoinMsg,Huỷ yêu cầu tham gia nhóm thành công!,Request to join the group was cancelled!
+storage.changeRole,Dung lượng gói dịch vụ đang sử dụng của thành viên được chuyển quyền Trưởng nhóm không đủ. Vui lòng chọn vai trò khác phù hợp.,"The current plan storage of this member, who will be transferred as Group Owner is insufficient. Please select a suitable role."
+storage.leaveGroup,Dung lượng gói dịch vụ đang sử dụng của thành viên được chuyển quyền Trưởng nhóm không đủ. Vui lòng chọn thành viên khác phù hợp.,"The current plan storage of this member, who will be transferred as Group Owner is insufficient. Please select a suitable member."
+member.approveMemberSuccess,Duyệt thành viên vào nhóm thành công!,Approve member to join group successfully!
+member.statusActive,Đang hoạt động ({}),Active ({})
+member.statusWaiting,Chờ duyệt ({}),Waiting ({})
+member.statusInvited,Đã gửi lời mời ({}),Invited ({})
+member.statusInactive,Ngừng hoạt động ({}),Inactive ({})
+member.sttWaiting,Chờ duyệt vào nhóm,Waiting
+member.sttInvited,Đã gửi lời mời ,Invited
+member.sttActive,Đã tham gia nhóm,Activated
+member.sttInactive,Ngừng tham gia nhóm,Inactivated
+member.reInviteMsg,Gửi lại lời mời thành công!,Reinvite successfully!
+member.deleteInviteMsg,Xoá lời mời thành công!,Remove invite successfully!
+member.rejectRequestMsg,Từ chối yêu cầu thành công!,Reject request successfully!
+member.recentAdded,Thêm mới gần đây,Recently added
+member.lastSyncContact,Lần cập nhật danh bạ gần nhất,Last sync contacts
+member.code,Mã thành viên,Member code
+member.deleteConfirm,Bạn muốn xóa thành viên,Do you want you want to remove
+member.outGroup,khỏi nhóm,from group
+member.deleteSuccessfully,Xoá thành viên khỏi nhóm thành công!,Delete member from group successfully!
+member.deleteUnsuccessfully,Xoá thành viên khỏi nhóm không thành công!,Delete member from group unsuccessfully!
+time.hour.one,1 giờ,1 hour
+time.hour.other,{} giờ,{} hours
+time.month.one,1 tháng,1 tháng
+time.month.other,{} tháng,{} months
+time.minute.one,1 phút,1 minute
+time.minute.other,{} phút,{} minutes
+time.late,Trễ {},{} late
+time.day.one,1 ngày,1 day
+time.day.other,{} ngày,{} days
+time.dayOfWeek.monday,Thứ 2,Monday
+time.dayOfWeek.tuesday,Thứ 3,Tuesday
+time.dayOfWeek.wednesday,Thứ 4,Wednesday
+time.dayOfWeek.thursday,Thứ 5,Thursday
+time.dayOfWeek.friday,Thứ 6,Friday
+time.dayOfWeek.saturday,Thứ 7,Saturday
+time.dayOfWeek.sunday,Chủ nhật,Sunday
+time.shortDayOfWeek.monday,T2,Mon
+time.shortDayOfWeek.tuesday,T3,Tue
+time.shortDayOfWeek.wednesday,T4,Wed
+time.shortDayOfWeek.thursday,T5,Thu
+time.shortDayOfWeek.friday,T6,Fri
+time.shortDayOfWeek.saturday,T7,Sat
+time.shortDayOfWeek.sunday,CN,Sun
+server.tokenExpired,Phiên làm việc của bạn đã hết hạn. Xin mời đăng nhập để tiếp tục.,Your session was expired. Please login to continue.
+server.groupTokenExpired,Phiên làm việc nhóm của bạn đã hết hạn. Xin mời chọn nhóm để tiếp tục.,Your group session was expired. Please select group to continue.
+reallocate.titleInfo,Phân quyền thông tin ,Reallocate data
+reallocate.applyPermission,Áp dụng phân quyền thiết lập trước đó,Apply the previously permissions
+reallocate.by,Phụ trách bởi,Supervised by
+reallocate.setting,Cài đặt quyền của người tham gia,Configure participant permissions
+reallocate.pic,Người phụ trách,Person in charge
+reallocate.picMsg,Hãy cân nhắc trước khi chuyển giao {} cho thành viên khác vì quyền hạn của bạn có thể bị hạn chế. ,Please consider before transferring {} to another member because your rights may be limited.
+reallocate.memberInteract,Thành viên được tương tác {},Members can interact {}
+reallocate.interactByPermission,Theo phân quyền vai trò trong nhóm,By role in group
+reallocate.whoCanView,Ai được xem thông tin {} này?,Who can view data of this {}?
+reallocate.whoCanEdit,Ai được sửa thông tin {} này?,Who can edit data of this {}?
+reallocate.whoCanDelete,Ai được xóa thông tin {} này?,Who can delete data of this {}?
+reallocate.selectViewMember,Chọn thành viên được xem thông tin {},Select members can view data of {}
+reallocate.selectEditMember,Chọn thành viên được sửa thông tin {},Select members can edit data of {}
+reallocate.selectDeleteMember,Chọn thành viên được xóa thông tin {},Select members can delete data of {}
+reallocate.viewMsg,Trưởng nhóm và Người phụ trách được quyền xem tất cả thông tin {}.,Group owner and person in charge can view all data of {}.
+reallocate.popUpPicMsg,"Chỉ Người phụ trách và Trưởng nhóm có quyền xem, sửa, xóa thông tin {}.","Only person in charge and group owner can view, edit, delete all data of {}."
+reallocate.popUpRoleMsg,"Các thành viên theo vai trò tương ứng sẽ có quyền được xem, sửa, xóa thông tin của {}.","All members has permissions by role can view, edit, delete all data of {}."
+reallocate.popUpCustomMsg,"Người phụ trách, Trưởng nhóm và các thành viên được chọn mới có quyền xem, sửa, xóa thông tin của {}.","Person in charge, group owner and all selected members can view, edit, delete all data of {}."
+reallocate.viewInfoMsg,Thông tin nào được hiển thị?,Which information is being displayed?
+reallocate.doentHavePermission,"Bạn không có quyền chỉnh sửa phần ""Phân quyền""","You do not have permission to modify the ""Reallocate"" section"
+reallocate.selectArea,Vui lòng chọn trường diện tích bắt buộc.,Please select the required area field.
+user.information,Thông tin cá nhân,User information
+user.brokerName,Tên môi giới,Broker's name
+user.gender,Giới tính,Gender
+user.dob,Ngày sinh,DOB
+user.address,Địa chỉ liên hệ,Address
+user.social,Mạng xã hội,Social Network
+user.chatAcc,Tài khoản chat,Messaging
+user.gMale,Nam,Male
+user.gFemale,Nữ,Female
+user.gOther,Khác,Other
+user.userName,Tên tài khoản,User name
+user.avatarMaxSize,Ảnh đại diện không được vượt quá dung lượng 10MB!,Avatar's size must be lower than 10MB!
+user.alreadyLoggedIn,Tài khoản đã được đăng nhập,The account was already signed in
+work.allDay,Cả ngày,All day
+work.partOfDay,Ngày thứ {},{} days
+work.priority,Mức độ ưu tiên,Priority
+work.low,Thấp,Low
+work.medium,Trung bình,Medium
+work.high,Cao,High
+work.todo,Việc cần làm,Todo
+work.startDate,Ngày bắt đầu,Start date
+work.endDate,Ngày kết thúc,End date
+work.notify,Nhắc hẹn,Notify
+work.notifyDesc,Tạo nhắc hẹn giúp môi giới nhận được thông báo kịp thời trước khi công việc diễn ra.,Create appointment reminders to help brokers receive timely notifications before the start of work.
+work.toCustomer,Đến khách hàng,To customer
+work.relateRealEstate,BĐS liên quan,Relate real estate
+work.sttInProgress,Đang xử lý,In Progress
+work.sttDone,Hoàn thành,Done
+work.sttTodo,Chưa xử lý,Todo
+work.noWork,"Chưa có việc quá hạn, việc cần làm",No overdue work
+work.noWorkInCharge,"Chưa có việc bạn giao, theo dõi",No in-charge work
+work.todayEmpty,Chưa có công việc nào trong hôm nay,No to-do task in today
+work.monthEmpty,Chưa có công việc nào trong tháng này,No to do task in this month
+work.name,Công việc,Work
+work.late,Chậm {},Overdue {}
+work.overdueTodo,"Việc quá hạn, việc cần làm","Overdue, to do task"
+work.taskInCharge,"Việc bạn giao, theo dõi",Task in charge
+work.todoList,Việc cần làm,Todo list
+work.createDateTimeMsg,Thời gian bắt đầu phải sớm hơn thời gian kết thúc,Start time must be greater than end time
+work.customerRelate,Khách hàng liên quan,Related customer
+work.classify,Phân loại đầu việc,Classification of work
+work.fullTime,Việc làm cả ngày,Full-time work
+work.duration,Thời gian diễn ra,Duration
+work.participants,Thành viên tham gia,Participants
+work.viewParticipants,Xem thông tin thành viên tham gia,View participant information
+customer.createSuccessfully,Tạo khách hàng thành công!,Create customer successfully!
+customer.addSuccessfully,Thêm mới khách hàng thành công!,Add customer successfully!
+customer.addFromContacts,Thêm mới từ danh bạ,Add from contacts
+customer.addManual,Thêm mới thủ công,Manual Add
+customer.selectStatus,Chọn trạng thái cho khách hàng,Select status for customer
+customer.changeStatus,Chuyển trạng thái,Change status
+customer.type,Đối tượng,Customer type
+customer.group,Nhóm khách hàng,Customer group
+customer.source,Nguồn khách hàng,Customer source
+customer.interestedProject,Dự án quan tâm,Interested project
+customer.idCard,CMND/ Hộ chiếu,Identity id
+customer.passPostDate,Ngày cấp,Issued date
+customer.passPostAddress,Nơi cấp,Place of issued
+customer.placeOfBirth,Nơi sinh,Place of birth
+customer.residentAddress,Địa chỉ thường trú,Resident address
+customer.job,Ngành nghề,Job
+customer.jobTitle,Chức danh,Job title
+customer.totalIncome,Tổng tài sản,Total income
+customer.monthlyIncome,Thu nhập trung bình/ tháng,Monthly income
+customer.relatedPerson,Người liên quan,Related person
+customer.deleteRelatedPersonMsg,Bạn muốn xóa người liên quan này?,Do you want to delete this related person?
+customer.relation,Mối quan hệ,Relation
+customer.personal,Cá nhân,Personal
+customer.company,Doanh nghiệp,Company
+customer.companyName,Tên doanh nghiệp,Company name
+customer.companyTax,Mã số thuế,Tax ID
+customer.cancelAddMember,Bạn muốn hủy thêm mới những khách hàng này?,Do you want cancel add new customers?
+customer.membersViewed,Thành viên đã xem,Seen by members
+customer.count.one,{} khách hàng,{} customer
+customer.count.other,{} khách hàng,{} customers
+customer.deleteMasterDataAlso,{} này cũng sẽ bị xóa ở những khách hàng đã được tạo.,This {} will also be deleted in already created customer.
+customer.keepSearchMsg,Bạn có muốn hiển thị danh sách khách hàng với từ khóa tìm kiếm hiện tại?,Do you want to display customers with current search key words?
+customer.buy,Khách mua,Customer
+notification.markRead,Đánh dấu thông báo là đã đọc,Mark as read
+notification.markUnRead,Đánh dấu thông báo là chưa đọc,Mark as unread
+notification.turnOffFrom,Tắt tất cả thông báo từ {} này,Turn off all notifications from this {}
+notification.turnOnFrom,Bật tất cả thông báo từ {} này,Turn on all notifications from this {}
+notification.markAllRead,Đánh dấu tất cả là đã đọc,Mark all as read
+notification.empty,Không có thông báo,No notifications
+notification.acceptOrg,Đã duyệt yêu cầu tham gia tổ chức!,Request to join the organization was accepted
+notification.acceptGroup,Đã chấp nhận lời mời vào nhóm!,Invitation to join the group was accepted
+sortBy.dateDesc,Ngày tạo mới nhất,Newest
+sortBy.dateAsc,Ngày tạo cũ nhất,Oldest
+sortBy.priceAsc,Giá tăng dần,Lowest price
+sortBy.priceDesc,Giá giảm dần,Highest price
+sortBy.areaAsc,Diện tích tăng dần,Lowest area
+sortBy.areaDesc,Diện tích giảm dần,Highest area
+sortBy.name,Tên,Name
+sortBy.interactDesc,Tương tác mới nhất,Newest interactive
+sortBy.interactAsc,Tương tác cũ nhất,Oldest interactive
+sortBy.lastUpdateDate,Ngày cập nhật mới nhất,Last update date
+demand.needOne,Cần có ít nhất 1 thông tin để so khớp!,Need at least 1 field to matching!
+demand.match,So khớp,Matching
+demand.matchButton,So khớp nhu cầu phù hợp,Match demand
+demand.available.one,Có {} nhu cầu {},{} {} demand
+demand.available.other,Có {} nhu cầu {},{} {} demands
+demand.carSlot,{} ô tô,{} cars
+demand.motorSlot,{} xe máy,{} motorbikes
+demand.bedRoom,PN,BRs
+demand.restRoom,WC,WCs
+discuss.noComment,Chưa có bình luận!,No comments yet!
+discuss.available.one,Có {} bình luận,{} comment
+discuss.available.other,Có {} bình luận,{} comments
+dashboard.news,Hôm nay có gì mới?,News feed
+dashboard.important,Quan trọng,Important
+dashboard.statistics,Báo cáo,Statistics
+dashboard.booking,Booking,Booking
+dashboard.marketing,Marketing,Marketing
+dashboard.priceList,Báng giá,Price list
+dashboard.miniApp,Mini Apps cho bạn,Mini Apps for you
+dashboard.quote,Bảo mật dữ liệu của nhà môi giới là ưu tiên hàng đầu của chúng tôi,Keep your data secure is our mission
+dashboard.monthReport,Tháng {} này bạn có những gì,What do you have this {}
+dashboard.hot,hot/ gấp,hot/ urgent
+dashboard.newRealEstate.one, bất động sản được thêm mới, new real estate 
+dashboard.newRealEstate.other, bất động sản được thêm mới, new real estates
+dashboard.newCustomer.one,Khách hàng mới,New customer
+dashboard.newCustomer.other,Khách hàng mới,New customers
+dashboard.newDemand.one,Nhu cầu mới,New demand
+dashboard.newDemand.other,Nhu cầu mới,New demands
+dashboard.newWork.one,Công việc mới,New task
+dashboard.newWork.other,Công việc mới,New tasks
+dashboard.noActivityToday,Nhóm chưa có hoạt động nào trong hôm nay,Group has no activities in today
+dashboard.noActivityMonth,Nhóm chưa có hoạt động nào trong tháng này,Group has no activities in this month
+demand.setting,Cài đặt thông tin nhu cầu,Setting demand fields
+demand.fields,Thông tin muốn so khớp,Matching fields
+demand.matchPercentage,Tỷ lệ % khớp thông tin,Matching percentage
+demand.notification,Bật chức năng này giúp bạn nhận được thông báo nhu cầu phù hợp nhất với tỷ lệ % đã cài đặt,Enable this feature to receive notifications about match demand with the setup percentage
+demand.pullPercentage,Kéo và lưu tỉ lệ % so khớp mà bạn mong muốn,Drag and save the match percentage
+demand.fieldsMsg,"Với mỗi bất động sản được nhập lên, hãy chọn những trường thông tin cần thiết để so khớp","For each real estate input, please select these fields to match"
+demand.draftSave,Bạn muốn lưu nháp lại nhu cầu không?,Do you want to save this draft demand?
+demand.quickMatch,So khớp nhanh nhu cầu,Quich match demand
+demand.realEstateForSale,Bất động sản cần {},Real Estate for {}
+demand.listRealEstate,Danh sách bất động sản,List of real estate.
+demand.showRealEstateMedia,"Ảnh, video của bất động sản sẽ được hiển thị?","Will image, video of real restate can be displayed?"
+demand.infor,Thông tin nhu cầu,Demand Information
+demand.createSuccessfully,Tạo nhu cầu thành công!,Create demand successfully!
+demand.neededToBuy,Loại nhà đất cần mua,Type of real estate needed to buy
+demand.neededToRent,Loại nhà đất cần thuê,Type of real estate needed to rent
+demand.neededForSaleAndTransfer,Loại nhà đất cần mua sang nhượng,Type of real estate needed for sale and transfer
+demand.minimumBookingDeposit,Tiền đặt chỗ tối thiểu,Minimum Booking Deposit
+demand.minimumDeposit,Tiền cọc tối thiểu,Minimum Deposit
+demand.customersLookingToBuy,Khách có nhu cầu mua,Customers looking to buy
+demand.customersLookingToRent,Khách có nhu cầu thuê,Customers looking to rent
+demand.customersLookingToBuyOrTransferOwnership,Khách có nhu cầu mua sang nhượng,Customers looking to buy or transfer ownership
+suggestion.quick,Đề xuất nhanh,Quick suggestion
+suggestion.available,{} khớp từ {}% thông tin trở lên,{} from {}% informations
+suggestion.result.one,Có #{} kết quả#,There is #{} match#
+suggestion.result.other,Có #{} kết quả#,There are #{} matches#
+suggestion.title,Nhu cầu phù hợp,Matched demand
+suggestion.internal,Nội bộ nhóm,Internal group
+suggestion.internalDescription,Chỉ các môi giới trong nhóm hiện tại có thể đề xuất ra nhu cầu của bạn,Only brokers in this group can propose your demands
+suggestion.otherGroup,Các nhóm khác,Other group
+suggestion.otherGroupDescription,Tất cả môi giới trên Meey CRM có thể đề xuất ra nhu cầu của bạn,All brokers on Meey CRM can propose your demands
+suggestion.percentage,Tỷ lệ khớp thông tin,Matching percentage
+suggestion.realEstateFields,Thông tin bất động sản trùng khớp,Matching real estate fields
+package.buyMoreStorage,Mua thêm dung lượng lưu trữ,Buy more storage
+package.monthly,Hàng tháng,Monthly
+package.annual,Hàng năm,Annual
+package.buyNow,Mua ngay,Buy now
+package.myPackage,Gói hiện tại,Current package
+package.changePackage,Thay đổi gói dung lượng,Change storage plan
+package.changePackageDes,Thời gian còn lại của gói dung lượng đang sử dụng sẽ được quy đổi thành tiền và hoàn lại cho bạn,The remaining time of the currently used package will be converted into money and refunded to you
+package.currentPackage,Thông tin gói hiện tại,Current package information
+package.timeSpent,Thời gian đã dùng,Time spent
+package.timeRemain,Thời gian còn lại,Time remaining
+package.moneyRefund,Số tiền hoàn lại,Refund amount
+package.refundToKM2,*Số tiền hoàn sẽ được chuyển vào tài khoản KM2,*Refund amount will be transferred to KM2 account
+package.newPackageInfo,Thông tin gói mua mới,New purchase package information
+package.confirmChangePackage,Xác nhận mua gói mới,Confirm purchase of new package
+package.storage,Dung lượng gói dịch vụ,Service package capacity
+package.gotoManager,Đến quản lý gói dịch vụ,Go to service package management
+topup.deposit,Nạp tiền,Deposit
+topup.selectTopUpPackage,Chọn gói nạp tiền,The selected top-up package
+topup.orInputAmount,Hoặc nhập số tiền,Or enter the amount
+topup.amountAfterTransaction,Số dư sau giao dịch,The balance after the transaction
+topup.promotion,Khuyến mãi,Promotion
+topup.mainAccount,Tài khoản chính,Main account
+topup.promotionAccount2,Tài khoản khuyến mãi 2,Promotional account 2
+topup.promotionProcess,*Giao dịch cộng tiền vào tài khoản khuyến mãi được xử lý trong vòng 24h,*The transaction of crediting money into the promotional account will be processed within 24 hours.
+topup.toValue,vào giá trị gói nạp,into the value of the top-up package
+toup.minimunAmount,"Số tiền nạp tối thiểu 50,000","Minimum top-up amount is 50,000 VND."
+topup.enterAmount,Nhập số tiền,Enter the amount
+topup.acceptTerm,Tôi đồng ý với tất cả các ,I agree to
+topup.term,điều khoản sử dụng,Terms of Use
+topup.support,Liên hệ CSKH,Customer Support Contact
+topup.or,hoặc,or
+topup.confirm,Xác nhận nạp tiền,Deposit Confirmation
+topup.payer,Người thanh toán,Payer
+topup.name,Họ và tên,Full name
+topup.enterName,Nhập họ và tên,Please enter your full name
+topup.phone,Số điện thoại,Phone
+topup.enterPhone,Nhập số điện thoại,Please enter your phone number
+topup.email,Email,Email
+topup.enterEmail,Nhập Email,Please enter your email
+topup.paymentMethod,Phương thức thanh toán,Payment method
+toup.amountToBePay,Số tiền cần thanh toán,The amount to be paid
+topup.back,Quay lại,Go back
+topup.paymentResult,Kết quả giao dịch,Transaction result
+topup.paymentInfo,Thông tin thanh toán,Payment information
+topup.transactionCode,Mã giao dịch,Transaction code
+topup.time,Thời gian,Time
+topup.otherInfo,Thông tin khác,Other information
+topup.walletReceiver,Tài khoản nhận tiền,Recipient account
+topup.walletSent,Tài khoản nguồn,Source account
+topup.method,Phương thức,Payment method
+topup.reasonFailure,Lý do thất bại,The reason for failure.
+topup.addMore,Nạp thêm tiền,Top up money
+topup.paymentInstruction,Hướng dẫn thanh toán,Payment instructions
+topup.paymentInstructionDes,Vui lòng chuyển khoản theo hướng dẫn dưới đây để hoàn tất giao dịch nạp tiền,Please transfer according to the instructions below to complete the deposit transaction
+topup.bank,Ngân hàng,Bank
+topup.promotionDes,Tiền khuyến mại của gói nạp sẽ được cộng vào tài khoản khuyến mại 2,The promotional bonus money from the top-up package will be credited to promotional account 2
+topup.bankNumber,Số tài khoản,Bank account number
+topup.accountHolder,Chủ tài khoản,Bank account holder
+topup.amountNeedToDeposit,Số tiền cần nạp,The amount to be deposited
+topup.bankDes,Nội dung chuyển khoản,Transfer description
+field.copySuccessful,Sao chép thành công,Copy successful
+field.sybbolMoney,đ,$
+package.product,Sản phẩm,Product
+package.timeUse,Thời gian sử dụng,The duration of use
+package.totalAmount,Thành tiền (gồm VAT),The total amount (including VAT)
+package.packageStorage,({}GB dung lượng),({}GB capacity)
+package.packageNumberDay,{} ngày,{} day
+package.extens,Gia hạn,Extension
+package.transactionInfo,Thông tin giao dịch,Transaction information
+package.transactionService,Dịch vụ,Sevice
+package.transactionHistory,Lịch sử giao dịch,Transaction history
+package.backToHome,Về trang chủ,Back to home
+package.tryagain,Thực hiện lại,Try again
+package.transactionSuccess,Giao dịch thành công,Successful transaction
+package.transactionFail,Giao dịch thất bại,Failed transaction
+package.transactionPending,Giao dịch đang được xử lý,Transaction is being processed
+package.transactionServiceName,Thanh toán Meey CRM,Payment for Meey CRM
+realEstate.projectTable,Bảng hàng dự án,Project row table
+realEstate.projectSearch,Tìm kiếm dự án,Search for projects
+realEstate.projectSelect,Chọn dự án,Select project
+realEstate.empty,Trống,Empty
+realEstate.reservation,Đặt chỗ,Reservations
+realEstate.deposit,Đặt cọc,Deposit
+realEstate.close,Đóng,Close
+realEstate.notOpen,Chưa mở,Not opened yet
+realEstate.addNewRealEstate,Thêm mới bất động sản,Add new real estate
+realEstate.chooseRealEstate,Chọn từ bất động sản đã tạo,Choose from created properties
+realEstate.removeRealEstateSuccess,Gỡ bất động sản khỏi bản vẽ thành công,Successfully removed the property from the drawing
+realEstate.noPermissionAction,Bạn không có quyền thực hiện chức năng này,You do not have permission to perform this function
+realEstate.noFloorPlans,Chưa có ảnh mặt bằng,There are no floor plans yet
+realEstate.seeInstruction,Xem hướng dẫn,See the instructions
+realEstate.doesNotPermision,Bản ghi này không tồn tại hoặc bạn không có quyền truy cập vào bản ghi này,This record does not exist or you do not have permission to access this record
+realEstate.choose,Chọn bất động sản,Choose real estate
+realEstate.chooseDes,"Các trường thông tin của bất động sản gồm: Dự án, tên bảng hàng, địa chỉ sẽ được thay đổi theo bảng hàng này. Để tiếp tục vui lòng xác nhận sự thay đổi này","Real estate information fields include: Project, row table name, and address will be changed according to this row table. To continue please confirm this change"
+realEstate.built,Đã xây,Built
+work.customizeReminder,Tùy chỉnh nhắc hẹn,Customize reminders
+work.dateOfTheTask,Ngày diễn ra công việc,Date of the task
+work.remindInAdvance,Nhắc hẹn trước,Remind in advance
+work.remindAt,Nhắc hẹn vào lúc,Reminder at
+work.hm,(Giờ:Phút),(hh:mm)
+work.addRemind,Thêm nhắc hẹn,Add reminder
+work.reminderTime,Thời gian nhắc hẹn,Reminder time
+work.limitOption,Chỉ được chọn tối đa {} lịch hẹn!,You can only select up to {} appointments!
+work.addOption,Thêm tùy chọn,Add option
+realEstate.owner,Chủ sở hữu,Owner
+realEstate.interested,Đang quan tâm,Interested
+realEstate.noProject,Chưa có dự án nào có bảng hàng,There are no projects with product tables yet
+organization.add,Tạo mới tổ chức,Create a new organization
+organization.enterName,Nhập tên tổ chức,Enter organization name
+organization.fieldOfActivity,Lĩnh vực hoạt động,Field of activity
+organization.representative,Người đại diện,Representative 
+organization.businessLicense,Giấy phép kinh doanh,Business license
+organization.enterInformation,Nhập thông tin,Enter information
+organization.nameRequired,Tên tổ chức là bắt buộc!,Organization name is required!
+organization.representativeNameRequired,Tên người đại diện là bắt buộc!,Representative name is required!
+organization.createSuccess,Tạo mới tổ chức thành công!,Organization created successfully!
+organization.createdByMe,Tạo bởi tôi,Created by me
+organization.participating,Đang tham gia,Participating
+organization.pendingApprovalGroup,Nhóm chờ duyệt,Pending approval group
+organization.pendingConfirmation,Chờ xác nhận,Pending confirmation
+organization.noInformation,Chưa có thông tin tổ chức!,No organization information available!
+organization.groupsAndMembers,{} nhóm - {} thành viên,{} groups - {} members
+organization.group,Nhóm ,Group 
+organization.groupRequestedToJoin, đã đề xuất tham gia vào tổ chức , has requested to join organization 
+organization.requestToJoinForGroup,Bạn đã đề xuất tham gia tổ chức , You have requested to join the organization 
+organization.for, cho nhóm ,for 
+organization.information,Thông tin tổ chức,Organization information
+organization.notVerified,Chưa được xác thực,Not verified
+organization.groupUnderOrganization,Nhóm thuộc tổ chức ({}),Group under organization ({})
+organization.code,Mã tổ chức,Organization code
+organization.verifiedByMeeyCRM,Đã được xác thực bởi Meey CRM,Verified by Meey CRM
+organization.confirmRemoveGroup1,Bạn có chắc chắn muốn gỡ nhóm ,Are you sure you want to remove 
+organization.confirmRemoveGroup2, khỏi tổ chức , from the organization 
+organization.removeGroup,Gỡ nhóm khỏi tổ chức, Remove group from organization
+organization.remove,Gỡ,Remove
+organization.delete,Xóa tổ chức,Delete organization
+organization.confirmDelete,Bạn có chắc chắn muốn xóa tổ chức  ,Are you sure you want to delete the organization
+organization.removeGroupSuccess,Gỡ nhóm khỏi tổ chức thành công!,Group removed from organization successfully!
+organization.notGroupMember,Bạn không phải là thành viên của nhóm này!,You are not a member of this group!
+organization.cannotEdit,Bạn không thể chỉnh sửa tổ chức vào lúc này!,You cannot edit the organization at this time!
+organization.deleteSuccess,Xoá tổ chức {} thành công!,Organization {} deleted successfully!
+organization.resubmitJoinRequestSuccess,Gửi lại yêu cầu đề xuất tham gia tổ chức thành công!,Resubmitting request to join organization successfully!
+organization.cancelJoinRequestSuccess,Huỷ yêu cầu tham gia tổ chức thành công!,Cancel request to join organization successfully!
+organization.approveGroupJoinSuccess,Duyệt nhóm tham gia tổ chức thành công!,Approve group to join organization successfully!
+organization.declineJoinRequestSuccess,Từ chối yêu cầu tham gia tổ chức thành công!,Decline request to join organization successfully!
+organization.noJoinRequests,Chưa có đề xuất nào tham gia tổ chức của bạn,No requests to join your organization
+organization.noJoinRequestsForYou,Bạn chưa có đề xuất tham gia tổ chức nào,You have no requests to join any organization
+organization.notGroupMember,Bạn không phải là thành viên của nhóm này!,You are not a member of this group!
+organization.enterOrSearchAddress,Nhập hoặc tìm kiếm địa chỉ,Enter or search for address
+organization.searchByNameOrCode,Tìm kiếm theo tên hoặc mã tổ chức,Search by organization name or code
+organization.edit,Sửa tổ chức,Edit organization
+filed.unavailablePleaseTryAgain,"Hệ thống đang gián đoạn, xin vui lòng thử lại sau!"," The system is temporarily unavailable, please try again later!"
+filed.root_number,Căn số,Root number
+realEstate.createNewProperties,Tạo mới bất động sản,Create new properties
+realEstate.propertyInfoHave,Các thông tin của bất động sản gồm: ,The property details include: 
+realEstate.projectDetail ,"Dự án, tên bảng hàng, địa chỉ, khu, tòa/ block, vị trí tầng, số thứ tự căn","Project, Product name, Address, Zone, Block, Floor position, Apartment number"
+realEstate.selectDirection,Chọn hướng,Select direction
+realEstate.enterArea,Nhập diện tích,Enter area
+realEstate.updatePropertyLocation, sẽ được thay đổi theo bảng hàng này. Vui lòng cập nhật các trường thông tin sau để xác định vị trí của bất động sản trên bảng hàng, it will be updated according to this product list. Please update the following fields to determine the property location on the product list
+realEstate.duplicateLocaltion,Trùng lặp vị trí bất động sản,Duplicate real estate location
+realEstate.duplicateLocaltionDes,"Đã tồm tại 1 bất động sản thuộc vị trí này trên bảng hàng. Để tránh trùng lặp, vui lòng kiểm tra lại các trường thông tin:","A real estate property with this location already exists in the listing. To avoid duplication, please double-check the information fields."
+realEstate.duplicateLocaltionDes2,"Số thứ tự căn, vị trí tầng","Unit number, floor position"
+realEstate.attachment,Tệp đính kèm,Attachment 
+realEstate.attachLink,Gắn link,Attach link
+realEstate.attachMediaLinks,"Gắn link Google Drive, video 3D, 360, Youtube,...","Attach links for Google Drive, 3D video, 360, YouTube, etc."
+realEstate.fileSizeExceedsLimit,File có dung lượng vượt quá 50MB sẽ không được tải lên!,Files larger than 50MB cannot be uploaded!
+realEstate.maxUploadLimit,Số lượng tải lên tối đa là 50 file!,The maximum upload limit is 50 files!
+realEstate.salesStage,Giai đoạn bán hàng,Sales stage
+realEstate.stage,Giai đoạn,Stage 
+realEstate.enterStageName,Nhập tên giai đoạn, Enter stage name
+realEstate.endDateAfterCurrent,Ngày kết thúc phải lớn hơn ngày hiện tại!,The end date must be later than the current date!
+realEstate.inventorySource,Nguồn hàng,Inventory source
+realEstate.enterInventorySourceName,Nhập tên nguồn hàng,Enter inventory source name
+realEstate.shareInMeeyCRM,Chia sẻ trong Meey CRM,Share in Meey CRM
+realEstate.shareToOtherPlatforms,Chia sẻ lên các nền tảng khác,Share to other platforms
+realEstate.manageAccessPermissions,Quản lý quyền truy cập,Manage access permissions
+realEstate.sharingHistory,Lịch sử chia sẻ,Sharing history
+realEstate.copyLink,Sao chép liên kết,Sao chép liên kết
+realEstate.shareProperty,Chia sẻ bất động sản,Share real estate
+realEstate.addShareContacts,"Thêm SĐT, Email tài khoản hoặc Tên nhóm cần chia sẻ","Add phone number, account email, or group name to share"
+realEstate.viewOnly,Chỉ xem,View only
+realEstate.viewAndShare,Xem và chia sẻ,View and share
+realEstate.combine,Vai trò kết hợp,Combine 
+realEstate.noSharePermission,Bạn không có quyền chia sẻ bất động sản này,You do not have permission to share this property
+realEstate.restricted,Hạn chế,Restricted
+realEstate.searchContactOrGroup,"Tìm kiếm SĐT, email hoặc tên nhóm","Search phone number, email, or group name"
+realEstate.joinedGroups,Nhóm đã tham gia,Joined group
+realEstate.meeyIDAccount,Tài khoản Meey ID,Meey ID account
+realEstate.whoHasAccess,Ai được truy cập,Who has access
+realEstate.whatInformationAccessed,Truy cập thông tin gì,What information is accessed
+realEstate.anyoneWithLinkCanAccess,Bất kỳ ai kết nối internet có liên kết đều có thể truy cập,Anyone with the link can access
+realEstate.restrictedAccessOnly,Chỉ những tài khoản hoặc thành viên thuộc nhóm có quyền truy cập mới có thể mở liên kết,Only accounts or group members with access permissions can open the link
+realEstate.sharedByMe,Được tôi chia sẻ,Shared by me
+realEstate.sharedByOthers,Người khác chia sẻ,Shared by others
+realEstate.accountsOrGroupsWithAccess,Tài khoản/ Nhóm có quyền truy cập,Accounts/Groups with access
+realEstate.generalAccessPermissions,Quyền truy cập chung,General access permissions
+realEstate.protectSensitiveInfo,Hệ thống sẽ luôn chủ động bảo mật các thông tin nhạy cảm của chủ nhà,The system will always proactively protect the homeowner's sensitive information
+realEstate.deselectHiddenInfo,Bỏ chọn thông tin bạn không muốn hiển thị,Deselect the information you do not want to display
+realEstate.removeAccess,Xoá quyền truy cập, Remove access
+realEstate.propertyDescription,Thông tin mô tả bất động sản,Real estate description information
+realEstate.locateOnMap,Định vị vị trí trên bản đồ,Locate position on the map
+realEstate.priceInfoDisplay,Thông tin giá (Không chia sẻ thì sẽ hiển thị giá ,"Price information (If not shared, the price will be displayed as "
+realEstate.propertyPhotos,Ảnh bất động sản, Real estate photos
+realEstate.propertiesWithDifferentAccess,{} bất động sản với quyền truy cập khác nhau,{} properties with different access permissions
+realEstate.role,Vai trò,Role
+realEstate.accessPermissions,Quyền truy cập,Access permissions
+realEstate.setAccessInformation,Cài đặt thông tin truy cập,Set access information
+realEstate.addContentToRecipient,Thêm nội dung đến người nhận,Add content to the recipient
+realEstate.sharePropertyInfo,Chia sẻ thông tin bất động sản,Share real estate information
+realEstate.limitedSharePermission,Bạn chỉ có quyền chia sẻ {} bất động sản. Có {} bất động sản không có quyền chia sẻ,You only have permission to share {} properties. {} properties cannot be shared
+realEstate.dataSharedWithMe,Dữ liệu được chia sẻ với tôi,Data shared with me
+realEstate.sharedWithMe,Được chia sẻ với tôi,Shared with me
+realEstate.searchSenderOrProperty,"Tìm tên người gửi, mã, tiêu đề BĐS","Search sender name, code, or property title"
+realEstate.property,Bất động sản,Real estate
+realEstate.sharedRepository,Kho chia sẻ,Shared repository
+realEstate.sharedWithGroup,Được chia sẻ với nhóm,Shared with group
+realEstate.propertyStatus,Trạng thái BĐS,Property status
