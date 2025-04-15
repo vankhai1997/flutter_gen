@@ -13,7 +13,7 @@ environment:
 dependencies:
   flutter_gen_core:
     git:
-      url: https://github.com/rinlv/flutter_gen.git
+      url: https://github.com/vankhai1997/flutter_gen.git
       ref: easy_localization
       path: packages/core
   build: '>=2.0.0 <3.0.0'
